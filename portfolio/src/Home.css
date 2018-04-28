@@ -1,0 +1,19 @@
+.Home{
+	 color: black;
+	 font-family: "Open Sans";
+	 font-size: 16px;
+}
+
+.profile{
+	display: flex;
+}
+
+.About{
+	text-align: left;
+	width: 40%;
+}
+
+.allProjects{
+	width:35%;
+	margin: auto;
+}

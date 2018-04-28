@@ -1,0 +1,35 @@
+.FrontView{
+	text-align: left;
+
+}
+
+.FrontView img{
+	width: 100%;
+}
+
+a:visited.FrontView{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover.FrontView{
+	color: #11aa37;
+
+}
+
+.FrontView p{
+	margin-top: 0px;
+
+}
+
+.FrontView h3{
+	color: #11aa37;
+	margin-bottom: 0px;
+}
+
+.bottomborder{
+	margin:auto;
+	width: 80px;
+	padding: 10px;
+	border-bottom: 3px double #11aa37;
+}
