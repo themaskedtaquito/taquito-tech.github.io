@@ -39,7 +39,7 @@ class App extends Component {
           <header className = "Header">
 
             <Link to ="/" className = "title">Mari Allison</Link>
-            <img src="/pixelephant.png" height="50px"/>
+            <img src="/pixelephant.png" className ="ele" height="50px"/>
             <Link to ="/">Home</Link>
             <Link to ="/games">Games</Link>
             <Link to ="/media">Multimedia</Link>

@@ -1,6 +1,8 @@
 .OverviewPage{
 	display: flex;
 	flex-direction: vertical;
+	margin-top: 100px;
+	padding: 10px;
 	/*grid-template-columns: 250px 250px 250px;
   	grid-template-rows: 250px 250px 250px;
   	grid-column-gap: 50px;
