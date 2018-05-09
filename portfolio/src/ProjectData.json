@@ -5,7 +5,7 @@
     "overview": "A co-operative board game that utilizes digital technology to enhance the player experience.",
     "thumbnail": "/excavatedevil.png",
     "urlName":"excavatedevil",
-    "images":["/excavatedevil.png","/excavatedevil.png"],
+    "images":["/excavated1.jpg","/excavated2.jpg"],
     "type":"games",
     "description":"<p>My project explores ways that technological computation can be used to enhance the experience of playing a board game. A number of sensors are integrated into the board to track player actions and movement. This information is relayed to a built in computer which can then output relevant information to the players via a built in screen or through audio. This technology is unobtrusive, and players interact with the game in the same way that they would any other board game.",
 
@@ -21,7 +21,7 @@
     "overview": "A two player platformer game that subverts the dynamic between Knight and Princess.",
     "thumbnail": "/princess.png",
     "urlName":"liberation",
-    "images":["/princess.png"],
+    "images":["/princess.png","/princess2.png"],
     "type":"games",
     "description":"<p>Princess Liberation is a local multiplayer platformer game inspired by the webcomic The Dragon Saves the Princess This Time, in which a knight attempts to 'rescue' a princess from the evil dragon. In a subversion of the usual trope, it turns out that the princess and dragon are actually friends, and the dragon is protecting her from unsuitable suitors.</p><p>I worked together with a team of three other students to translate the web comic into a 2D platformer game. My contributions included managing the project's Github repo, programming all of the UI and camera elements, and implementing the knight's gameplay. We all worked together on the game design, and my teammate's were completely responsible for the artwork, animations, and music.</p>",
 
