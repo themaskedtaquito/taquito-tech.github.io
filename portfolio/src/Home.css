@@ -1,27 +1,40 @@
 .Home{
+	 margin: 12%;
 	 color: black;
 	 font-family: "Open Sans";
 	 font-size: 18px;
 	 margin-top: 100px;
+	 display: grid;
+	 grid-template-columns: 300px auto;
+	 grid-template-rows: 350px auto;
+
 }
 
 .profile{
 	display: flex;
-	border-bottom: 3px double #11aa37;
+	width: 1050px;
 	/*display: none;*/
-
 }
-
+.profile figure{
+	margin-left: 0;
+}
 .About{
 	text-align: left;
 	line-height: 1.50;
 	width: 40%;
 }
 
-.Home h1{
+.Home h2{
 	font-family: 'Montserrat', sans-serif;
+	color: #11aa37;
+	padding: 10px;
+	border-top: 3px double black;
+	border-bottom: 3px double black;
+	width: 97%;
 }
+
 .allProjects{
-	width:35%;
-	margin: auto;
+	width: 600px;
+	/*margin: auto;*/
+	grid-column: 2;
 }
