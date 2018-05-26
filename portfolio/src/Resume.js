@@ -27,8 +27,8 @@ class Resume extends Component {
 
 	    <h3>Skills</h3>
 	    	<div className ="skills">
-	    		<p><b>Programming Languages:</b> Python, C#, Javascript, React.js</p>
-	    		<p><b>Game Development:</b> Unity, Arduino, Processing, Board Games</p>
+	    		<p><b>Programming Languages:</b> Python, Javascript, React.js, C#</p>
+	    		<p><b>Game Development:</b> Unity, Arduino/Processing, Board Games</p>
 	    		<p><b>Design Software:</b> Adobe Photoshop, Adobe Illustrator, Adobe Premiere</p>
 	    		<p><b>Project Management:</b> JIRA, Slack, Trello</p>
 	    	</div>
