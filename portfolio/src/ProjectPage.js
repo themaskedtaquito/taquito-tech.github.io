@@ -3,13 +3,13 @@ import './ProjectPage.css';
 import ReactDOM from 'react-dom';
 import { Carousel } from 'react-responsive-carousel';
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Player } from 'video-react';
+import "video-react/dist/video-react.css";
+
 
 class ProjectPage extends Component {
   render() {
-    let hasVideo;
-    if(this.props.project.video){
-        hasVideo=true;
-      }
+   
 
     let imageReel = this.props.project.images.map(img=>{
       return (
@@ -19,13 +19,20 @@ class ProjectPage extends Component {
       )
     });
 
-    if(hasVideo){
-      
-      imageReel.unshift(<div>
-          <img src = {this.props.project.video}/>
+     if(this.props.project.gif){
+        imageReel.unshift(<div>
+          <img src = {this.props.project.gif}/>
         </div>);
-    };
+      }
 
+      if(this.props.project.video){
+        imageReel.unshift(<div>
+          <Player
+            src={this.props.project.video}
+          />
+          
+        </div>);
+      }
     return (
 
       <div className="ProjectPage">

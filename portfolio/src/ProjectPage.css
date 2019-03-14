@@ -28,6 +28,10 @@
 	display: none;
 }
 
+.column.pro{
+	display: none;
+}
+
 .column{
 	padding: 15px;
 	color: #11aa37;

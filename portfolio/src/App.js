@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Route, BrowserRouter as Router, Link} from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
 import './App.css';
 import ProjectData from './ProjectData.json';
 
@@ -32,50 +33,62 @@ class App extends Component {
     const media = Projects.filter(project=>{
       return project.type.match("media");
     });
+    const pro = Projects.filter(project=>{
+      return project.type.match("pro");
+    });
 
     return (
       <Router>
-        <div className="App">
-          <header className = "Header">
+        <ScrollToTop>
+          <div className="App">
+            <header className = "Header">
 
-            <Link to ="/" className = "title">Mari Allison</Link>
-            <img src="/pixelephant.png" className ="ele" height="50px"/>
-            <Link to ="/">Home</Link>
-            <Link to ="/games">Games</Link>
-            <Link to ="/media">Multimedia</Link>
-            <Link to ="/resume">Resume</Link>
-          </header>
+              <Link to ="/" className = "title">Mari Allison</Link>
+              <img src="/pixelephant.png" className ="ele" height="50px"/>
+              <Link to ="/">Home</Link>
+              <Link to ="/professional">Professional</Link>
+              <Link to ="/games">Games</Link>
+              <Link to ="/media">Multimedia</Link>
+              <Link to ="/resume">Resume</Link>
+            </header>
 
-          <Route exact path = "/resume" component = {Resume} />
+            <Route exact path = "/resume" component = {Resume} />
 
-          <Route exact path = "/" 
-            render= {props => {
-              return <Home data ={this.state.projects} />}
-            }
-          />
-          
-          <Route exact path="/games"
-            render={props => {
-              return <OverviewPage data={games} />}
-            }
-          />
-          <Route exact path="/media"
-            render={props => {
-              return <OverviewPage data={media} />}
-            }
-          />
+            <Route exact path = "/" 
+              render= {props => {
+                return <Home data ={this.state.projects} />}
+              }
+            />
+            
+            <Route exact path="/professional"
+              render={props => {
+                return <OverviewPage data={pro} />}
+              }
+            />
 
-          <Route path="/:type/:urlName"
-            render={props => {
-              const project = this.state.projects.find(
-                p => p.urlName == props.match.params.urlName
-              );
+            <Route exact path="/games"
+              render={props => {
+                return <OverviewPage data={games} />}
+              }
+            />
+            <Route exact path="/media"
+              render={props => {
+                return <OverviewPage data={media} />}
+              }
+            />
 
-              return <ProjectPage project={project} />;
-            }}
-          />
+            <Route path="/:type/:urlName"
+              render={props => {
+                const project = this.state.projects.find(
+                  p => p.urlName == props.match.params.urlName
+                );
 
-        </div>
+                return <ProjectPage project={project} />;
+              }}
+            />
+
+          </div>
+        </ScrollToTop>
       </Router>
     );
   }
