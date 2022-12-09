@@ -1,0 +1,82 @@
+{
+    "ProjectData":[
+    {
+    "name": "Wonder League",
+    "overview": "Mission content for the world's largest childhood robotics competition.",
+    "thumbnail": "/WLRC.png",
+    "urlName":"wonderleague",
+    "images":["/WLRCM1.png","/WLRCintro.png","/WLRCM2.png","/WLRCM3.png"],
+    "type":"pro",
+    "description":"<p>I was responsible for designing the first 3 missions of the 2018-2019 Wonder League Robotics Competition. Each mission is divided into 3 tiers, corresponding with the age group of the participants. These divisions are 6-8, 9-11, and 12-14.</p><p>One of my primary design goals was to encourage the use of coding fundamentals, including loops and functions. Many of the missions also encourage exploration of the robot’s features, primarily the front and back proximity sensors. The solution to most of the missions are more elegant when loops and sensors are used, but they are not required to succeed.</p><p>My other design goal was to enable all kids on the team to participate. Although coding is the main component of the robotics competition, there are also other roles for team members to fulfill. Even if someone knows very little about programming, they can still contribute in other ways by helping to devise the mission’s solution, performing DIY setup, or building attachments for the robot.</p>"
+    },
+
+    {
+    "name": "Excavated Evil",
+    "overview": "A co-operative board game that utilizes digital technology to enhance the player experience.",
+    "thumbnail": "/excavatedevil.png",
+    "urlName":"excavatedevil",
+    "images":["/excavated1.jpg","/excavated2.jpg","/excavated3.jpg"],
+    "type":"games",
+    "description":"<p>My project explores ways that technological computation can be used to enhance the experience of playing a board game. A number of sensors are integrated into the board to track player actions and movement. This information is relayed to a built in computer which can then output relevant information to the players via a built in screen or through audio. This technology is unobtrusive, and players interact with the game in a way similar to most other board games.</p><p>The premise of the game is that ghouls have been causing mysterious disappearances in Haven City. The players must traverse the city to discover hints that will help them deduce the location of the ghouls and find holy items that will allow them to cleanse the supernatural presence.</p>",
+
+    "platform": "Print",
+    "tools": "Arduino, Adobe Illustrator, Photoshop",
+    "language": "Python",
+    "team": "1",
+    "role": "Designer, Programmer",
+    "video": "/Capstone.mp4"
+    },
+
+  {
+    "name": "Princess Liberation",
+    "overview": "A two player platformer game that subverts the dynamic between Knight and Princess.",
+    "thumbnail": "/princess.png",
+    "urlName":"liberation",
+    "images":["/princess.png","/princess2.png","/princess3.jpg","/princess4.jpg"],
+    "type":"games",
+    "description":"<p>Princess Liberation is a local multiplayer platformer game inspired by the webcomic The Dragon Saves the Princess This Time, in which a knight attempts to 'rescue' a princess from the evil dragon. In a subversion of the usual trope, it turns out that the princess and dragon are actually friends, and the dragon is protecting her from unsuitable suitors.</p><p>I worked together with a team of three other students to translate the web comic into a 2D platformer game. My contributions included managing the project's Github repo, programming all of the UI and camera elements, and implementing the knight's gameplay. We all worked together on the game design, and my teammate's were completely responsible for the artwork, animations, and music.</p>",
+
+    "platform": "Windows PC",
+    "tools": "Unity3D",
+    "language": "C#",
+    "team": "4",
+    "role": "Lead Programmer, Co-designer"
+  },
+    {
+    "name": "Unowned Collected",
+    "overview": "A board game experiment generated from the rules of several existing games.",
+    "thumbnail": "/UnownedCollected4.png",
+    "urlName":"unowned",
+    "images":["/UnownedCollected.png","/UnownedCollected2.png"],
+    "type":"games",
+    "description":"<p>Unowned Collected makes use of Python's Natural Language Toolkit to break down the structure of different board games' rulesets. The script I wrote first analyzes the language from each game, then generates a brand new game section by section. After running the program a few times, I took the text output and some images from the original rules and arranged them into a pamphlet using Adobe Illustrator.</p>",
+
+    "platform": "Print",
+    "tools": "Adobe Illustrator, NLTK",
+    "language": "Python",
+    "team": "1",
+    "role": "Programmer"
+  },
+  {
+    "name": "Melding into Nothing",
+    "overview": "A series of programmatic photo-manipulations of the NYC skyline.",
+    "thumbnail": "/skyline.png",
+    "urlName":"nyc",
+    "images":["/melding1.gif","/melding2.gif"],
+    "type":"media",
+    "description":"<p>The above artwork was created to express the homesickness and disaffection that I felt when living in New York City for the first time. These gifs were made by taking my own photographs and creating a Processing sketch to manipulate the images pixel by pixel.</p>"
+  },
+  
+  {
+    "name": "Forest Fire",
+    "overview": "A modular origami project elegizing California.",
+    "thumbnail": "/forestfire1.jpg",
+    "urlName":"forestfire",
+    "images":["/forestfire3.jpg","/forestfire2.jpg"],
+    "type":"media",
+    "description":"<p>A California native, I created this project while living in Asia and witnessing California's yearly wildfires from afar. Forest Fire explores the beauty and destruction of wildfires through origami. Viewed from above, these origami trees resemble a colorful arrangement of flowers. From the side, however, their true form becomes cleaer.</p>"
+  }
+    ]
+}
+
+
